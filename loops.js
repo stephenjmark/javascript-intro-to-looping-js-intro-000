@@ -30,7 +30,7 @@ function doWhileLoop(array){
 
   array
   do {
-    array.pop()
+    array.slice(1)
   } while (array.length > 0 && maybeTrue());
   return array
 }
