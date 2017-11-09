@@ -24,6 +24,10 @@ function maybeTrue() {
 }
 
 function doWhileLoop(array){
+  function maybeTrue() {
+    return Math.random() >= 0.5
+  }
+
   var newArray
   do {
     newArray.pop()
