@@ -28,9 +28,9 @@ function doWhileLoop(array){
     return Math.random() >= 0.5
   }
 
-  var newArray
+  array
   do {
-    newArray.pop()
-  } while (newArray.length > 0 && maybeTrue());
-  return newArray
+    array.pop()
+  } while (array.length > 0 && maybeTrue());
+  return array
 }
